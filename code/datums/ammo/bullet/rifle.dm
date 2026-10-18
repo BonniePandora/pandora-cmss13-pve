@@ -177,6 +177,7 @@
 /datum/ammo/bullet/rifle/heavy/rmcdmr
 	name = "8.88x51 squash-head bullet"
 	damage = 60
+	flags_ammo_behavior = AMMO_BALLISTIC|AMMO_SNIPER|AMMO_IGNORE_COVER
 	penetration = ARMOR_PENETRATION_TIER_6
 	accuracy = HIT_ACCURACY_TIER_3
 	shell_speed = AMMO_SPEED_TIER_7
